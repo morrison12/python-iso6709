@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='iso6709',
-    version='0.1.3',
+    version='0.1.4-b1',
     license='BSD',
     description='A library for parsing ISO6709 format Degree Minute Second style coordinates.',
     long_description='%s\n%s' % (
@@ -65,7 +65,7 @@ setup(
         'iso6709', 'coordinates', 'dms'
     ],
     install_requires=[
-        
+
     ],
     extras_require={
     },
